@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.projekt.app.appprojekt.Menue">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Menü"
+        app:layout_constraintBottom_toTopOf="@+id/Routenberechnung"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Routenberechnung"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="38dp"
+        android:layout_marginTop="17dp"
+        android:text="Routenberechnung"
+        app:layout_constraintBottom_toTopOf="@+id/HHNStandorte"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <Button
+        android:id="@+id/HHNStandorte"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="216dp"
+        android:text="HHN Standorte"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Routenberechnung" />
+
+</android.support.constraint.ConstraintLayout>
