@@ -1,5 +1,6 @@
 package com.projekt.app.appprojekt;
 
+import android.content.Intent;
 import android.media.MediaRouter;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -44,22 +45,40 @@ public class Standortauswahl extends AppCompatActivity implements View.OnClickLi
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.Menu:
+                Intent Menu = new Intent(this, Menue.class);
+                startActivity(Menu);
                 break;
             case R.id.RouteSontheim:
+                Intent RouteS = new Intent(this, Routenberechnung.class);
+                startActivity(RouteS);
                 break;
             case R.id.StandortSontheim:
+                Intent StandortS = new Intent(this, Standort.class);
+                startActivity(StandortS);
                 break;
             case R.id.RouteEuropaplatz:
+                Intent RouteE = new Intent(this, Routenberechnung.class);
+                startActivity(RouteE);
                 break;
             case R.id.StandortEuropaplatz:
+                Intent StandortEP = new Intent(this, Standort.class);
+                startActivity(StandortEP);
                 break;
             case R.id.RouteSHA:
+                Intent RouteSHA = new Intent(this, Routenberechnung.class);
+                startActivity(RouteSHA);
                 break;
             case R.id.StandortSHA:
+                Intent StandortSHA = new Intent(this, Standort.class);
+                startActivity(StandortSHA);
                 break;
             case R.id.RouteKUN:
+                Intent RouteKUN = new Intent(this, Routenberechnung.class);
+                startActivity(RouteKUN);
                 break;
             case R.id.StandortKUN:
+                Intent StandortKUN = new Intent(this, Standort.class);
+                startActivity(StandortKUN);
                 break;
         }
     }

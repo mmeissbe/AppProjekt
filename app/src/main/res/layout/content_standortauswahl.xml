@@ -11,12 +11,12 @@
     <ScrollView
         android:id="@+id/ScrollView01"
         android:layout_width="384dp"
-        android:layout_height="850dp"
+        android:layout_height="900dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="0.16000003">
 
         <RelativeLayout
             android:id="@+id/RelativeLayout01"
@@ -34,9 +34,9 @@
                     android:layout_width="80dp"
                     android:layout_height="45dp"
                     android:layout_marginEnd="297dp"
+                    android:layout_marginLeft="7dp"
                     android:layout_marginRight="297dp"
                     android:layout_marginStart="7dp"
-                    android:layout_marginLeft="7dp"
                     android:layout_marginTop="3dp"
                     android:background="@color/colorPrimary"
                     android:text="Menü"
@@ -50,12 +50,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="84dp"
+                    android:layout_marginLeft="85dp"
                     android:layout_marginRight="84dp"
                     android:layout_marginStart="85dp"
-                    android:layout_marginLeft="85dp"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:text="Standorte der Hochschule: "
+                    android:textSize="18sp"
                     android:visibility="visible"
                     app:layout_constraintBottom_toTopOf="@+id/ScrollView01"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -75,7 +76,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Campus Heilbronn Sontheim"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/text8"
@@ -88,27 +90,31 @@
                     android:id="@+id/RouteSontheim"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Route anzeigen" />
+                    android:text="Route anzeigen"
+                    android:textSize="18sp" />
 
                 <Button
                     android:id="@+id/StandortSontheim"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Standort anzeigen" />
+                    android:text="Standort anzeigen"
+                    android:textSize="18sp" />
 
                 <EditText
                     android:id="@+id/editText3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/text5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Campus Heilbronn Europaplatz"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/text6"
@@ -121,13 +127,15 @@
                     android:id="@+id/RouteEuropaplatz"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Route anzeigen" />
+                    android:text="Route anzeigen"
+                    android:textSize="18sp" />
 
                 <Button
                     android:id="@+id/StandortEuropaplatz"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Standort anzeigen" />
+                    android:text="Standort anzeigen"
+                    android:textSize="18sp" />
 
                 <EditText
                     android:id="@+id/editText4"
@@ -141,7 +149,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Campus Schwäbisch Hall"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/text4"
@@ -154,13 +163,15 @@
                     android:id="@+id/RouteSHA"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Route anzeigen" />
+                    android:text="Route anzeigen"
+                    android:textSize="18sp" />
 
                 <Button
                     android:id="@+id/StandortSHA"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Standort anzeigen" />
+                    android:text="Standort anzeigen"
+                    android:textSize="18sp" />
 
                 <EditText
                     android:id="@+id/editText7"
@@ -174,7 +185,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Campus Künzelsau"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/Text1"
@@ -187,13 +199,15 @@
                     android:id="@+id/RouteKUN"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Route anzeigen" />
+                    android:text="Route anzeigen"
+                    android:textSize="18sp" />
 
                 <Button
                     android:id="@+id/StandortKUN"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Standort anzeigen" />
+                    android:text="Standort anzeigen"
+                    android:textSize="18sp" />
 
                 <EditText
                     android:id="@+id/editText6"

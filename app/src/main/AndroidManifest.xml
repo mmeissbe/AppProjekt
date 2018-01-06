@@ -40,10 +40,16 @@
         </activity>
         <activity
             android:name=".Standortauswahl"
-            android:label="@string/title_activity_standortauswahl"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Menue" />
-        <activity android:name=".Standort"></activity>
+        <activity
+            android:name=".Menue"
+            android:label="Menü" />
+        <activity
+            android:name=".Standort"
+            android:label="Standortanzeige" />
+        <activity
+            android:name=".Routenberechnung"
+            android:label="Routenanzeige" />
     </application>
 
 </manifest>
