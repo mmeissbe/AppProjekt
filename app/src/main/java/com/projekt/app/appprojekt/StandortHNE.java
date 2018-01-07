@@ -40,7 +40,7 @@ public class StandortHNE extends FragmentActivity implements OnMapReadyCallback,
         startActivity(Standortauswahl);
         this.finish();
     }
-
+ 
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
