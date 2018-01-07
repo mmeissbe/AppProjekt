@@ -6,25 +6,25 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Standort extends AppCompatActivity implements View.OnClickListener {
+public class StandortSHA extends AppCompatActivity implements View.OnClickListener {
 
-    Button Zuruck;
+    Button ZuruckSHA;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_standort);
+        setContentView(R.layout.activity_standort_sh);
 
-        Zuruck = (Button) findViewById(R.id.Zuruck);
-        Zuruck.setOnClickListener(this);
+        ZuruckSHA = (Button) findViewById(R.id.ZuruckSHA);
+        ZuruckSHA.setOnClickListener(this);
 
     }
 
     @Override
     public void onClick(View view) {
-        Intent Maps = new Intent(this, MapsActivity.class);
-        startActivity(Maps);
+        Intent Standortauswahl = new Intent(this, Standortauswahl.class);
+        startActivity(Standortauswahl);
         this.finish();
     }
 }

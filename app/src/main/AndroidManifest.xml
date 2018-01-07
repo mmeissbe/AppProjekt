@@ -45,11 +45,16 @@
             android:name=".Menue"
             android:label="Menü" />
         <activity
-            android:name=".Standort"
-            android:label="Standortanzeige" />
-        <activity
             android:name=".Routenberechnung"
             android:label="Routenanzeige" />
+        <activity android:name=".StandortHNS"
+            android:label="Standort Campus Sontheim" />
+        <activity android:name=".StandortHNE"
+            android:label="Standort Bildungscampus" />
+        <activity android:name=".StandortKUN"
+            android:label="Standort Reinhold-Würth-Hochschule" />
+        <activity android:name=".StandortSHA"
+            android:label="Standort Schwäbisch Hall" />
     </application>
 
 </manifest>

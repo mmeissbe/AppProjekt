@@ -53,7 +53,7 @@ public class Standortauswahl extends AppCompatActivity implements View.OnClickLi
                 startActivity(RouteS);
                 break;
             case R.id.StandortSontheim:
-                Intent StandortS = new Intent(this, Standort.class);
+                Intent StandortS = new Intent(this, StandortHNS.class);
                 startActivity(StandortS);
                 break;
             case R.id.RouteEuropaplatz:
@@ -61,7 +61,7 @@ public class Standortauswahl extends AppCompatActivity implements View.OnClickLi
                 startActivity(RouteE);
                 break;
             case R.id.StandortEuropaplatz:
-                Intent StandortEP = new Intent(this, Standort.class);
+                Intent StandortEP = new Intent(this, StandortHNE.class);
                 startActivity(StandortEP);
                 break;
             case R.id.RouteSHA:
@@ -69,7 +69,7 @@ public class Standortauswahl extends AppCompatActivity implements View.OnClickLi
                 startActivity(RouteSHA);
                 break;
             case R.id.StandortSHA:
-                Intent StandortSHA = new Intent(this, Standort.class);
+                Intent StandortSHA = new Intent(this, StandortSHA.class);
                 startActivity(StandortSHA);
                 break;
             case R.id.RouteKUN:
@@ -77,7 +77,7 @@ public class Standortauswahl extends AppCompatActivity implements View.OnClickLi
                 startActivity(RouteKUN);
                 break;
             case R.id.StandortKUN:
-                Intent StandortKUN = new Intent(this, Standort.class);
+                Intent StandortKUN = new Intent(this, StandortKUN.class);
                 startActivity(StandortKUN);
                 break;
         }
